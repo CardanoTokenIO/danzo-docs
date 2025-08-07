@@ -1,5 +1,7 @@
 # Welcome to Danzo
 
+![DANZO Token](images/TokenLogo.png)
+
 Danzo is a comprehensive blockchain development platform revolutionizing smart contract development on the Cardano blockchain.
 
 ## Smart Contract Development on Cardano

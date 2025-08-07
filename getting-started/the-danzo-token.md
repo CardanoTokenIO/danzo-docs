@@ -1,5 +1,7 @@
 # The DANZO Token
 
+![DANZO Token](../images/TokenLogo.png)
+
 Learn about the native DANZO token that powers the ecosystem.
 
 ## What is DANZO?
