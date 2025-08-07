@@ -1,5 +1,7 @@
 # The Casino
 
+![The Casino](../images/Casino.jpg)
+
 Welcome to Danzo's decentralized casino experience.
 
 ## How It Works
