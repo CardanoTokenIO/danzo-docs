@@ -18,4 +18,4 @@ Yet $DANZO's economics are deliberately designed to create constant buying press
 
 These continuous burns and buy-backs tighten supply while the project grows, aligning long-term holders with the success of the Danzo ecosystem. For a deeper dive into the flow of funds—or just to chat—join us on Discord any time.
 
-![BuyBack Elephant Video](../images/BBE2.mp4)
+{% file src="../images/BBE2.mp4" %}
