@@ -15,5 +15,3 @@ Because the core logic that handles user funds resides on chain and has passed a
 ## Security Audit Report
 
 {% file src="../images/audit.pdf" %}
-
-*If the PDF does not display above, you can download it directly by clicking this link: [Download Audit Report](../images/audit.pdf)*
