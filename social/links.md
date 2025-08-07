@@ -1,16 +1,9 @@
-# Social Media Links
+# Links
 
-Connect with the Danzo community.
+Connect with the Danzo community and access the protocol.
 
-## Official Channels
+## Official Links
 
-- **Twitter**: [@DanzoProtocol](https://twitter.com/danzoprotocol)
-- **Discord**: [Join our community](https://discord.gg/danzo)
-- **Telegram**: [Official channel](https://t.me/danzoprotocol)
-- **GitHub**: [Source code](https://github.com/danzoprotocol)
-
-## Community
-
-- Medium blog
-- Reddit community
-- Developer forums
+- **Protocol**: [danzo.gg](https://danzo.gg)
+- **Twitter/X**: [@DanZoADA](https://x.com/DanZoADA)
+- **Discord**: [Join our community](https://discord.gg/6YkrGtBcQH)
