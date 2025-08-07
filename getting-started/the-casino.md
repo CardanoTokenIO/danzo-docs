@@ -71,9 +71,10 @@ Plinko is a fast‑paced game of chance in which you drop a ball from the top of
 **Risk levels**
 
 Before each round you choose a risk level: Easy, Medium, or Hard.
-• Easy offers the narrowest payout spread, topping out at roughly five‑and‑a‑half times your bet.
-• Medium widens the range, with a potential thirty‑three‑times return.
-• Hard introduces extreme volatility—returns can be as high as one‑thousand times the stake or as low as a small fraction of it.
+
+- **Easy** offers the narrowest payout spread, topping out at roughly five‑and‑a‑half times your bet.
+- **Medium** widens the range, with a potential thirty‑three‑times return.
+- **Hard** introduces extreme volatility—returns can be as high as one‑thousand times the stake or as low as a small fraction of it.
 
 **Bet amount**
 
