@@ -1,5 +1,11 @@
 # Becoming the House
 
+**[Provide Liquidity now](https://danzo.gg/#/liquidity)**
+
+## Instructional Video
+
+{% embed url="https://www.youtube.com/watch?v=gsM-Kblie_8" %}
+
 ## Danzo V4: Pooled-liquidity Gambling on Cardano
 
 Traditional casinos keep the entire bankroll under their own control, so only the operator earns the house edge. Danzo V4 overturns that model by introducing the first Web3 casino on the Cardano blockchain where everyday users can supply the bankroll and share in the returns.
