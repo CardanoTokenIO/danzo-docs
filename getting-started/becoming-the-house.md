@@ -1,6 +1,6 @@
-# Liquidity Provision
+# Becoming the House
 
-Provide liquidity and earn rewards on Danzo.
+Take the house position and earn from casino operations.
 
 ## How it Works
 

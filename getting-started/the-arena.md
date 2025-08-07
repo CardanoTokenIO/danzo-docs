@@ -1,6 +1,6 @@
-# Parameters
+# The Arena
 
-Key platform parameters and configurations.
+Enter the competitive trading arena where the best traders compete.
 
 ## Trading Parameters
 
