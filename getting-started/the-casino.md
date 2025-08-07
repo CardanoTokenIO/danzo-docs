@@ -8,7 +8,7 @@ Welcome to DANZO Casino, the ultimate gambling hub where 100% of profits are bur
 
 ### BONANZA
 
-![BONANZA](../images/slots.webp)
+<img src="../images/slots.webp" alt="BONANZA" width="50%">
 
 Bonanza is the traditional Slots game we all love but with a DANZO theme and music!
 
@@ -20,7 +20,7 @@ Bonanza offers a 95.76% RTP (Return to Player) with a maximum payout of x2000 on
 
 ### CRASH
 
-![CRASH](../images/crash1.webp)
+<img src="../images/crash1.webp" alt="CRASH" width="50%">
 
 Crash is the most popular and most played game. It gives you the full experience of trading a shitcoin in just a few seconds — no need for buyers to pump the number up, and no need for exit liquidity to cash in your profits!
 
@@ -38,7 +38,7 @@ Adding the house edge we get a 96% RTP with a maximum return of x5000.
 
 ### BLACKJACK
 
-![BLACKJACK](../images/blackjack1.webp)
+<img src="../images/blackjack1.webp" alt="BLACKJACK" width="50%">
 
 BLACKJACK is the most popular table game to the Casino! We've crafted the best rules to ensure you have the most fun. It's a continuously shuffled 6 deck game!
 
