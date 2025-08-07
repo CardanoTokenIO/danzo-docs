@@ -4,7 +4,6 @@
 
 ## Explore the Protocol
 
-* [Welcome](getting-started/welcome.md)
 * [The Casino](getting-started/the-casino.md)
 * [The Arena](getting-started/the-arena.md)
 * [The DANZO Token](getting-started/the-danzo-token.md)
