@@ -6,6 +6,10 @@
 
 DANZO ARENA is a decentralized application running on Cardano. The goal of the arena is to add an extra layer of complexity to DANZO, gamify it, promote DANZO trading, and introduce a new memecoin standard: the MEMEFI standard.
 
+## Arena Explanation Video
+
+[![DANZO Arena Explanation](https://img.youtube.com/vi/K7rvNyAEKHk/maxresdefault.jpg)](https://www.youtube.com/watch?v=K7rvNyAEKHk)
+
 ## How does the DANZO ARENA work?
 
 The DANZO ARENA is exclusive to DANZO holders. Holders deposit their tokens and receive the appropriate amount of $HODLDANZO, which allows them to swap back to DANZO when they withdraw.
