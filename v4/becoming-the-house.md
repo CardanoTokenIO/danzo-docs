@@ -10,6 +10,14 @@ Traditional casinos keep the entire bankroll under their own control, so only th
 
 **[Provide Liquidity now](https://danzo.gg/#/liquidity)**
 
+![Transparent Rewards](../images/house1.png)
+
+Rewards are transparent and paid out as an airdrop every 5 days to the liquidity providers.
+
+![High APR Returns](../images/house2.png)
+
+Within a few months many people have achieved over 100% APR making this one of the best if not the best yield generating for ADA right now on Cardano.
+
 ## How the pooled approach works
 
 Any wallet that holds at least 690 million HodlDANZO tokens can deposit funds into the casino's liquidity pool. Because hundreds or even thousands of token-holders can participate, the total liquidity grows far beyond what a single operator could provide. Larger liquidity means higher maximum bet limits and a more stable house balance.
