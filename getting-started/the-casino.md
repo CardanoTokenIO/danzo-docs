@@ -45,3 +45,19 @@ DANZO BLACKJACK is the most popular table game to the Casino! We've crafted the 
 ![Blackjack Interface](../images/blackjack2.webp)
 
 The full list of rules can be found in-game at all times.
+
+### DANZO ROULETTE
+
+Master the classic European roulette by predicting where the ball will land and winning accordingly.
+
+![DANZO ROULETTE](../images/roulette1.jpg)
+
+**Key statistics**
+
+The game offers a return to player of 97.3 percent, giving the house an edge of 2.7 percent. The wheel contains thirty‑seven pockets numbered from zero to thirty‑six.
+
+**How the game works**
+
+Danzo Roulette follows the traditional single‑zero European format. You place a wager on the pocket where a small ball will come to rest after the wheel is spun. The wheel's thirty‑seven pockets alternate between purple and black, except for the single zero, which is neutral and counted as neither even nor odd. If the ball lands in the pocket you predicted, you receive a payout based on the bet type you selected.
+
+![Roulette Interface](../images/roulette2.png)
