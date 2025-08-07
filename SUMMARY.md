@@ -11,11 +11,6 @@
 * [The Arena](getting-started/the-arena.md)
 * [The DANZO Token](getting-started/the-danzo-token.md)
 
-## Tokenomics
-
-* [Tokenomics](tokenomics/tokenomics.md)
-* [Staking](tokenomics/staking.md)
-
 ## V4
 
 * [Becoming the House](v4/becoming-the-house.md)
