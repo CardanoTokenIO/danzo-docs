@@ -8,41 +8,41 @@ Welcome to DANZO Casino, the ultimate gambling hub where 100% of profits are bur
 
 ### BONANZA
 
-<img src="../images/slots.webp" alt="DANZO BONANZA" width="800">
+![BONANZA](../images/slots.webp)
 
 Bonanza is the traditional Slots game we all love but with a DANZO theme and music!
 
-<img src="../images/slots2.webp" alt="Slots Interface" width="750">
+![Slots Interface](../images/slots2.webp)
 
 Bonanza offers a 95.76% RTP (Return to Player) with a maximum payout of x2000 on a single spin! The RTP represents the expected return to the player after 1 million spins. First, we calculate the theoretical RTP, and after conducting numerous simulations with 1 million spins, we fine-tune the final figure. Traditional online slots typically have an RTP of 95–98%, so Bonanza is definitely player-friendly in comparison. Here are the detailed odds:
 
-<img src="../images/slots3.webp" alt="Detailed Odds" width="800">
+![Detailed Odds](../images/slots3.webp)
 
 ### CRASH
 
-<img src="../images/crash1.webp" alt="DANZO CRASH" width="800">
+![CRASH](../images/crash1.webp)
 
 Crash is the most popular and most played game. It gives you the full experience of trading a shitcoin in just a few seconds — no need for buyers to pump the number up, and no need for exit liquidity to cash in your profits!
 
 The concept is simple: the number goes up until it crashes. If you manage to cash out before the crash, you earn profits equal to your bet multiplied by the current multiplier at the time of your exit.
 
-<img src="../images/crash2.webp" alt="Crash Interface" width="750">
+![Crash Interface](../images/crash2.webp)
 
 **ODDS:**
 
 Odds are calculated with the following formula:
 
-<img src="../images/crash3.webp" alt="Crash Formula" width="700">
+![Crash Formula](../images/crash3.webp)
 
 Adding the house edge we get a 96% RTP with a maximum return of x5000.
 
 ### BLACKJACK
 
-<img src="../images/blackjack1.webp" alt="DANZO BLACKJACK" width="800">
+![BLACKJACK](../images/blackjack1.webp)
 
 BLACKJACK is the most popular table game to the Casino! We've crafted the best rules to ensure you have the most fun. It's a continuously shuffled 6 deck game!
 
-<img src="../images/blackjack2.webp" alt="Blackjack Interface" width="750">
+![Blackjack Interface](../images/blackjack2.webp)
 
 The full list of rules can be found in-game at all times.
 
