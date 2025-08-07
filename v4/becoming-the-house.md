@@ -14,7 +14,7 @@ Traditional casinos keep the entire bankroll under their own control, so only th
 
 Rewards are transparent and paid out as an airdrop every 5 days to the liquidity providers.
 
-![High APR Returns](../images/house2.png)
+![High APR Returns](../images/house2.jpeg)
 
 Within a few months many people have achieved over 100% APR making this one of the best if not the best yield generating for ADA right now on Cardano.
 
