@@ -32,7 +32,7 @@ The concept is simple: the number goes up until it crashes. If you manage to cas
 
 Odds are calculated with the following formula:
 
-![Crash Formula](../images/crash3.webp)
+<img src="../images/crash3.webp" alt="Crash Formula" width="50%">
 
 Adding the house edge we get a 96% RTP with a maximum return of x5000.
 
