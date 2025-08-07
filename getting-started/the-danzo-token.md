@@ -1,6 +1,6 @@
-# The DANZO Token
+<img src="../images/TokenLogo.png" alt="DANZO Token" width="80" height="80" align="right">
 
-![DANZO Token](../images/TokenLogo.png)
+# The DANZO Token
 
 Learn about the native DANZO token that powers the ecosystem.
 

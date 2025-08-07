@@ -1,6 +1,6 @@
-# Welcome to Danzo
+<img src="images/TokenLogo.png" alt="DANZO Token" width="120" height="120" style="display: block; margin: 0 auto;">
 
-![DANZO Token](images/TokenLogo.png)
+# Welcome to Danzo
 
 Danzo is a comprehensive blockchain development platform revolutionizing smart contract development on the Cardano blockchain.
 
