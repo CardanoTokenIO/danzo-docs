@@ -61,3 +61,26 @@ The game offers a return to player of 97.3 percent, giving the house an edge of 
 Danzo Roulette follows the traditional single‑zero European format. You place a wager on the pocket where a small ball will come to rest after the wheel is spun. The wheel's thirty‑seven pockets alternate between purple and black, except for the single zero, which is neutral and counted as neither even nor odd. If the ball lands in the pocket you predicted, you receive a payout based on the bet type you selected.
 
 ![Roulette Interface](../images/roulette2.png)
+
+### PLINKO
+
+Plinko is a fast‑paced game of chance in which you drop a ball from the top of a pegboard. As the ball bounces off pegs, it randomly shifts left or right until it reaches one of the pockets at the bottom. The pocket's multiplier is applied to your stake to determine your payout.
+
+![PLINKO](../images/plinko1.png)
+
+**Risk levels**
+
+Before each round you choose a risk level: Easy, Medium, or Hard.
+• Easy offers the narrowest payout spread, topping out at roughly five‑and‑a‑half times your bet.
+• Medium widens the range, with a potential thirty‑three‑times return.
+• Hard introduces extreme volatility—returns can be as high as one‑thousand times the stake or as low as a small fraction of it.
+
+**Bet amount**
+
+Set your wager with the plus and minus controls. The current stake is displayed in ADA. You may adjust the amount before every ball drop.
+
+**Auto‑bet option**
+
+If you prefer continuous play, enable Auto Bet. The game will automatically place and drop consecutive bets using your chosen settings until you disable the feature or your balance runs out.
+
+![Plinko Interface](../images/plinko2.png)
