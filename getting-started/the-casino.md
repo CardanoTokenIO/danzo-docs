@@ -35,3 +35,13 @@ Odds are calculated with the following formula:
 ![Crash Formula](../images/crash3.webp)
 
 Adding the house edge we get a 96% RTP with a maximum return of x5000.
+
+### DANZO BLACKJACK
+
+![DANZO BLACKJACK](../images/blackjack1.webp)
+
+DANZO BLACKJACK is the most popular table game to the Casino! We've crafted the best rules to ensure you have the most fun. It's a continuously shuffled 6 deck game!
+
+![Blackjack Interface](../images/blackjack2.webp)
+
+The full list of rules can be found in-game at all times.
