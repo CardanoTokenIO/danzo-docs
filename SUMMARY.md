@@ -8,7 +8,6 @@
 * [MemeFI](getting-started/memefi.md)
 * [Tutorial](getting-started/tutorial.md)
 * [The Casino](getting-started/the-casino.md)
-* [Becoming the House](getting-started/becoming-the-house.md)
 * [The Arena](getting-started/the-arena.md)
 * [The DANZO Token](getting-started/the-danzo-token.md)
 
@@ -19,7 +18,7 @@
 
 ## V4
 
-* [Unique Features](v4/unique-features.md)
+* [Becoming the House](v4/becoming-the-house.md)
 
 ## Social Media
 
