@@ -1,0 +1,5 @@
+[33mfaa6872[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m Add GitBook configuration and fix SUMMARY.md structure for proper sidebar display
+[33mf82feeb[m Restructure GitBook sidebar with new Getting Started sections and updated navigation
+[33m036a295[m Force update with timestamp to trigger sync
+[33m50cf2f3[m Update tutorial content to trigger GitBook sync
+[33md71a2aa[m Fix README.md encoding issue with completely new clean file
