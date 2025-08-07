@@ -1,33 +1,13 @@
 # Position Settlement
 
-Understanding how positions are settled on the Danzo platform.
+Understanding position settlement on Danzo.
 
 ## Settlement Process
 
-Position settlement is the process of closing out trading positions and determining final profit/loss.
+Learn how positions are settled automatically or manually.
 
-## Types of Settlement
+## Key Concepts
 
-### Automatic Settlement
-- Triggered by predefined conditions
-- Based on mark price
-- Executed automatically by the protocol
-
-### Manual Settlement
-- Initiated by the trader
-- Can be partial or full settlement
-- Requires user confirmation
-
-## Settlement Calculations
-
-The settlement price is determined by:
-- Current mark price
-- Funding rates
-- Position size
-- Entry price
-
-## Important Considerations
-
-- Settlement fees may apply
-- Timing of settlement affects final P&L
-- Slippage may occur during volatile markets
+- Mark price
+- Settlement fees
+- Timing considerations

@@ -1,36 +1,15 @@
 # Tutorial
 
-A step-by-step guide to get you started with the Danzo platform.
+Step-by-step guide to using the Danzo platform.
 
 ## Prerequisites
 
-Before you begin, make sure you have:
-- A Cardano wallet (Nami, Eternl, or Flint)
-- Some ADA for transaction fees
-- Basic understanding of DeFi concepts
+- Cardano wallet
+- Basic DeFi knowledge
+- ADA for transaction fees
 
-## Step 1: Connect Your Wallet
+## Steps
 
-1. Visit the Danzo platform
-2. Click "Connect Wallet"
-3. Select your preferred wallet
-4. Approve the connection
-
-## Step 2: Explore the Platform
-
-- Navigate through different sections
-- Familiarize yourself with the interface
-- Check available trading pairs
-
-## Step 3: Make Your First Trade
-
-1. Select a trading pair
-2. Choose your position size
-3. Set your parameters
-4. Confirm the transaction
-
-## Next Steps
-
-- Learn about advanced features
-- Explore staking opportunities
-- Join the community
+1. Connect your wallet
+2. Explore the platform
+3. Make your first trade

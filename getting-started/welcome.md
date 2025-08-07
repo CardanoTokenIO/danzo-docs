@@ -1,15 +1,11 @@
 # Welcome
 
-Danzo is a comprehensive blockchain development platform revolutionizing smart contract development on the Cardano blockchain.
+Welcome to Danzo - your gateway to Cardano smart contract development.
 
-## Smart Contract Development on Cardano
+## Overview
 
-Danzo is the first comprehensive development platform to launch on Cardano.
+Danzo provides comprehensive tools for blockchain development on Cardano.
 
-## Danzo Platform
+## Getting Started
 
-The DANZO token serves as the backbone of the ecosystem.
-
-## V2 Development Platform
-
-The upcoming V2 release represents a significant evolution of Danzo development tools.
+Follow this guide to begin your journey with Danzo.
