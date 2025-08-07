@@ -14,4 +14,4 @@ Because the core logic that handles user funds resides on chain and has passed a
 
 ## Security Audit Report
 
-{% embed url="../images/audit.pdf" %}
+[📄 View the Complete Audit Report (PDF)](../images/audit.pdf)
