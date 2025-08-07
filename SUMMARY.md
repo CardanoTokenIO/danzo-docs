@@ -19,6 +19,7 @@
 ## V4
 
 * [Becoming the House](v4/becoming-the-house.md)
+* [Audit](v4/audit.md)
 
 ## Social Media
 
