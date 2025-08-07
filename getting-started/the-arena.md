@@ -1,6 +1,6 @@
 # The DANZO ARENA
 
-![DANZO ARENA](../images/arena1.webp)
+🎮 **[PLAY THE ARENA NOW →](https://danzo.gg/#/arena)**
 
 DANZO ARENA is a decentralized application running on Cardano. The goal of the arena is to add an extra layer of complexity to DANZO, gamify it, promote DANZO trading, and introduce a new memecoin standard: the MEMEFI standard.
 
@@ -56,10 +56,10 @@ Base case (to prove Pk ≥ P0 when k = 0): In this case, Pk = P0, trivially
 
 Induction case (to prove that Pk+1 ≥ P0, assuming, by induction hypothesis, that Pk ≥ P0. Let Rk and Sk be R and S after action ak. Proof by case analysis:
 
-![Arena Math](../images/arena2.webp)
+*[Mathematical proof diagram will be displayed here]*
 
 ## Discussion
 
 The hodlCoin game can be seen as a dual of a Ponzi scheme. Whereas in a Ponzi scheme investors who enter earlier are paid with money from investors who enter later, in the hodlCoin game players who exit later are paid with money from players who exit earlier. Furthermore, whereas a ponzi scheme fools investors who are unaware of the scheme's operations, the hodlCoin game is fully transparent, its rules are clear and players are aware of them. Finally, whereas a Ponzi scheme is unstable and invariably leads to collapse, hodlCoin is conjectured to enjoy a self-stabilizing effect: if the price of the underlying asset is falling and players start to un-hodl to sell the underlying asset, this may encourage other players to hodl to benefit from the fees paid by those who are un-hodling; this may reduce the selling pressure on the underlying asset.
 
-![Arena Concept](../images/arena3.webp)
+*[Arena concept visualization will be displayed here]*
