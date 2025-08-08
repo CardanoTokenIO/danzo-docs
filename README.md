@@ -10,3 +10,5 @@ It's hard to fit everything into these docs, and even if I did, you probably wou
 Everything has been built with zero external funding and is entirely developed and supervised in-house by Orca Labs — a professional software delivery company on Cardano.
 
 I present to you: The DANZO Protocol.
+
+<img src="images/OrcaLabsStamp.png" alt="Orca Labs" width="60" height="60" style="display: block; margin: 20px auto;">
