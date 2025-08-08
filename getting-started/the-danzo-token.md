@@ -1,7 +1,5 @@
 <img src="../images/TokenLogo.png" alt="DANZO Token" width="40" height="40" align="right">
 
-# The DANZO Token
-
 The **$DANZO** token launched fairly in **June 2024**, raising **6,900 ADA** exclusively for the initial liquidity pool and allocating **50%** of the supply to a tightly-controlled presale. Since then, additional tokens have entered circulation as the treasury has funded maintenance and operating costs, expanding the float and, at first glance, making the supply appear less scarce to new investors.
 
 Yet $DANZO's economics are deliberately designed to create constant buying pressure: the token captures value from both the **Danzo Casino** and the **Danzo Arena**, plus every external token integrated into either platform. To illustrate, imagine our ever-diligent mascot **BuyBack Elephant**—quietly scooping $DANZO off the open market. To date, the Elephant has absorbed **more than 130,000 ADA** worth of tokens through these automated buy-backs.
