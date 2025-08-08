@@ -11,4 +11,4 @@ Everything has been built with zero external funding and is entirely developed a
 
 I present to you: The DANZO Protocol.
 
-<img src="images/OrcaLabsStamp.png" alt="Orca Labs" width="60" height="60" style="display: block; margin: 20px auto;">
+<img src="images/OrcaLabsStamp.png" alt="Orca Labs" width="30" height="30" style="display: block; margin: 20px auto;">
