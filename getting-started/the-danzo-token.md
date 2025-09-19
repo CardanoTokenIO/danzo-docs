@@ -1,4 +1,4 @@
-<img src="../images/TokenLogo.png" alt="DANZO Token" width="40" height="40" align="right">
+![DANZO Token](../images/TokenLogo.png){: style="width: 40px; height: 40px; float: right"}
 
 The **$DANZO** token launched fairly in **June 2024**, raising **6,900 ADA** exclusively for the initial liquidity pool and allocating **50%** of the supply to a tightly-controlled presale. Since then, additional tokens have entered circulation as the treasury has funded maintenance and operating costs, expanding the float and, at first glance, making the supply appear less scarce to new investors.
 
