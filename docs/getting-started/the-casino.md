@@ -10,7 +10,7 @@ Welcome to DANZO Casino, the ultimate gambling hub where 100% of profits are bur
 
 ### BONANZA
 
-<img src="../images/slots.webp" alt="BONANZA" width="50%">
+![BONANZA](../images/slots.webp){: style="width: 50%"}
 
 Bonanza is the traditional Slots game we all love but with a DANZO theme and music!
 
@@ -22,7 +22,7 @@ Bonanza offers a 95.76% RTP (Return to Player) with a maximum payout of x2000 on
 
 ### CRASH
 
-<img src="../images/crash1.webp" alt="CRASH" width="50%">
+![CRASH](../images/crash1.webp){: style="width: 50%"}
 
 Crash is the most popular and most played game. It gives you the full experience of trading a shitcoin in just a few seconds — no need for buyers to pump the number up, and no need for exit liquidity to cash in your profits!
 
@@ -34,13 +34,13 @@ The concept is simple: the number goes up until it crashes. If you manage to cas
 
 Odds are calculated with the following formula:
 
-<img src="../images/crash3.webp" alt="Crash Formula" width="50%">
+![Crash Formula](../images/crash3.webp){: style="width: 50%"}
 
 Adding the house edge we get a 96% RTP with a maximum return of x5000.
 
 ### BLACKJACK
 
-<img src="../images/blackjack1.webp" alt="BLACKJACK" width="50%">
+![BLACKJACK](../images/blackjack1.webp){: style="width: 50%"}
 
 BLACKJACK is the most popular table game to the Casino! We've crafted the best rules to ensure you have the most fun. It's a continuously shuffled 6 deck game!
 
@@ -52,7 +52,7 @@ The full list of rules can be found in-game at all times.
 
 Master the classic European roulette by predicting where the ball will land and winning accordingly.
 
-<img src="../images/roulette1.jpg" alt="DANZO ROULETTE" width="650">
+![DANZO ROULETTE](../images/roulette1.jpg){: style="width: 650px"}
 
 **Key statistics**
 
@@ -96,4 +96,4 @@ Don't forget, everything is accessible via mobile as long as you visit the DANZO
 
 **SEE YOU AT THE LEADERBOARDS!**
 
-<img src="../images/gamesend.webp" alt="See you at the leaderboards" width="600">
+![See you at the leaderboards](../images/gamesend.webp){: style="width: 600px"}
