@@ -14,4 +14,6 @@ Because the core logic that handles user funds resides on chain and has passed a
 
 ## Security Audit Report
 
-{% file src="../images/audit.pdf" %}
+[📄 Download Full Audit Report (PDF)](../images/audit.pdf)
+
+The complete security audit report is available as a PDF document. Click the link above to view or download the detailed findings and recommendations from our independent security review.
