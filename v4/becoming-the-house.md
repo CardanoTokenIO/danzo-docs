@@ -10,7 +10,7 @@ Traditional casinos keep the entire bankroll under their own control, so only th
 
 Learn how to become a liquidity provider and earn returns by "becoming the house" in this comprehensive video tutorial.
 
-**[Provide Liquidity now](https://danzo.gg/#/liquidity)**
+**[Provide Liquidity now](https://danzo.gg/liquidity)**
 
 ## How the pooled approach works
 

@@ -2,7 +2,7 @@
 
 ![DANZO ARENA](../images/arena1.webp)
 
-**[Join the Arena now](https://danzo.gg/#/arena)**
+**[Join the Arena now](https://danzo.gg/arena)**
 
 DANZO ARENA is a decentralized application running on Cardano. The goal of the arena is to add an extra layer of complexity to DANZO, gamify it, promote DANZO trading, and introduce a new memecoin standard: the MEMEFI standard.
 
