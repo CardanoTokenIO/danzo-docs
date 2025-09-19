@@ -1,0 +1,52 @@
+# mkdocs.yml
+site_name: DANZO Docs
+site_url: https://CardanoTokenIO.github.io/danzo-docs/
+repo_url: https://github.com/CardanoTokenIO/danzo-docs
+theme:
+  name: material
+  logo: images/TokenLogo.png
+  favicon: images/TokenLogo.png
+  features:
+    - navigation.top
+    - navigation.sections
+    - navigation.footer
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+    - navigation.expand
+
+# Use repo root as docs source; keep files where they are
+docs_dir: .
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - def_list
+  - footnotes
+  - attr_list
+  - md_in_html
+
+# Build a clean nav based on existing SUMMARY.md structure
+nav:
+  - Home: README.md
+  - Explore the Protocol:
+    - The Casino: getting-started/the-casino.md
+    - The Arena: getting-started/the-arena.md
+    - The DANZO Token: getting-started/the-danzo-token.md
+  - V4:
+    - Becoming the House: v4/becoming-the-house.md
+    - Audit: v4/audit.md
+  - Social Media:
+    - Links: social/links.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/danzo
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/DanzoCasino

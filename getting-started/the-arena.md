@@ -8,7 +8,7 @@ DANZO ARENA is a decentralized application running on Cardano. The goal of the a
 
 ## Arena Explanation Video
 
-{% embed url="https://www.youtube.com/watch?v=K7rvNyAEKHk" %}
+[Watch Arena Explanation Video](https://www.youtube.com/watch?v=K7rvNyAEKHk)
 
 ## How does the DANZO ARENA work?
 
