@@ -15,8 +15,8 @@ theme:
     - search.highlight
     - navigation.expand
 
-# Use repo root as docs source; keep files where they are
-docs_dir: .
+# Use docs directory to avoid conflicts
+docs_dir: docs
 
 plugins:
   - search
