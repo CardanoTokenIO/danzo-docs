@@ -1,7 +1,6 @@
 # mkdocs.yml
 site_name: DANZO Docs
-site_url: https://CardanoTokenIO.github.io/danzo-docs/
-repo_url: https://github.com/CardanoTokenIO/danzo-docs
+site_url: https://docs.danzo.gg/
 theme:
   name: material
   logo: images/TokenLogo.png
