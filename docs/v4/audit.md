@@ -14,9 +14,9 @@ Because the core logic that handles user funds resides on chain and has passed a
 
 ## Security Audit Report
 
-[📄 Download Complete Security Audit Report (LaTeX Source)](../images/danzo-complete-audit.tex)
+[📄 Download Complete Security Audit Report (PDF)](../images/danzo-audit-final.pdf)
 
-The comprehensive security audit report is available as a professional LaTeX document. This detailed report contains:
+The comprehensive security audit report is available as a professional PDF document. This detailed report contains:
 
 - **Executive Summary** with risk assessment matrix
 - **Complete Architecture Analysis** of backend systems
