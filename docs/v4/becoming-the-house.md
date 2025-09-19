@@ -6,7 +6,9 @@ Traditional casinos keep the entire bankroll under their own control, so only th
 
 ## Instructional Video
 
-{% embed url="https://www.youtube.com/watch?v=gsM-Kblie_8" %}
+[🎥 Watch Instructional Video](https://www.youtube.com/watch?v=gsM-Kblie_8)
+
+Learn how to become a liquidity provider and earn returns by "becoming the house" in this comprehensive video tutorial.
 
 **[Provide Liquidity now](https://danzo.gg/#/liquidity)**
 
