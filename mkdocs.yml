@@ -44,6 +44,7 @@ nav:
     - Links: social/links.md
 
 extra:
+  generator: false
   social:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/danzo
