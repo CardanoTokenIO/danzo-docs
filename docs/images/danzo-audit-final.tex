@@ -1,0 +1,393 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{hyperref}
+
+% Page setup
+\geometry{
+    top=2.5cm,
+    bottom=2.5cm,
+    left=3cm,
+    right=2.5cm
+}
+
+% Colors
+\definecolor{danzoBlue}{RGB}{0,51,102}
+\definecolor{danzoGreen}{RGB}{0,128,0}
+\definecolor{danzoRed}{RGB}{204,0,0}
+\definecolor{danzoOrange}{RGB}{255,140,0}
+\definecolor{danzoGray}{RGB}{128,128,128}
+
+% Professional header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{danzoBlue}{\textbf{DANZO Security Audit Report}}}
+\fancyhead[R]{\textcolor{danzoGray}{May 9, 2025}}
+\fancyfoot[L]{\textcolor{danzoGray}{Confidential}}
+\fancyfoot[C]{\textcolor{danzoGray}{\thepage}}
+\fancyfoot[R]{\textcolor{danzoGray}{Orca Labs}}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\setlength{\headheight}{14pt}
+
+% Hyperlink setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=danzoBlue,
+    filecolor=danzoBlue,
+    urlcolor=danzoBlue,
+    citecolor=danzoBlue,
+    pdftitle={DANZO Security Audit Report},
+    pdfauthor={Orca Labs Security Division}
+}
+
+\begin{document}
+
+% Title page
+\begin{titlepage}
+    \centering
+    \vspace*{1cm}
+    
+    {\Huge\bfseries\color{danzoBlue} DANZO PROTOCOL}\\[0.5cm]
+    {\LARGE\color{danzoGray} COMPREHENSIVE SECURITY AUDIT REPORT}\\[1.5cm]
+    
+    {\large Backend Infrastructure \& Financial Controls Assessment}\\[2cm]
+    
+    \begin{tabular}{p{4cm}p{6cm}}
+        \textbf{Audit Period:} & January 2025 - May 2025 \\[0.3cm]
+        \textbf{Report Date:} & Friday, May 9, 2025 \\[0.3cm]
+        \textbf{Audit Firm:} & Orca Labs Security Division \\[0.3cm]
+        \textbf{Domain Assessed:} & \texttt{danzo.gg} \\[0.3cm]
+        \textbf{Blockchain Platform:} & Cardano \\[0.3cm]
+        \textbf{Repository Type:} & Closed-Source Backend \\[0.3cm]
+        \textbf{Classification:} & \textcolor{danzoRed}{\textbf{CONFIDENTIAL}} \\[0.3cm]
+    \end{tabular}
+    
+    \vfill
+    
+    \begin{center}
+    \fbox{\begin{minipage}{0.8\textwidth}
+        \centering
+        \textbf{EXECUTIVE NOTICE}\\[0.2cm]
+        This report contains confidential and proprietary information regarding the security assessment of DANZO Protocol's backend infrastructure. Distribution is strictly restricted to authorized parties only.
+    \end{minipage}}
+    \end{center}
+    
+    \vspace{1cm}
+    
+    {\large\textbf{Orca Labs Security Division}}\\
+    {\textit{Professional Security Audit Services}}
+    
+\end{titlepage}
+
+% Table of contents
+\tableofcontents
+\newpage
+
+% Executive Summary
+\section{Executive Summary}
+
+\subsection{Purpose of the Audit}
+This audit provides a comprehensive examination of the closed-source backend code for the decentralized application running on the Cardano blockchain under the domain \texttt{danzo.gg}. The primary goal is to identify any potential loopholes or vulnerabilities that malicious actors could exploit to extract liquidity or otherwise compromise the system.
+
+\subsection{Overall Assessment}
+Overall, the backend exhibits a \textbf{sound structural design}. However, we identified several security and reliability concerns that required immediate attention and have been successfully addressed during the audit process.
+
+\subsection{Key Findings}
+
+\subsubsection{Critical Discoveries}
+\begin{itemize}
+    \item \textcolor{danzoRed}{\textbf{No initial withdrawal limits}}: Initially, the source code did not enforce any upper withdrawal thresholds, potentially allowing the entire liquidity to be withdrawn in a single transaction.
+    
+    \item \textcolor{danzoGreen}{\textbf{Audit-driven improvements}}: As a direct result of the audit, withdrawal limits and multi-stage validation checks were introduced.
+    
+    \item \textcolor{danzoGreen}{\textbf{Triple-verification process}}: Currently, every withdrawal undergoes a triple-verification procedure before final execution, significantly reducing the risk of large-scale unauthorized withdrawals.
+\end{itemize}
+
+\subsubsection{Risk Assessment Summary}
+\begin{center}
+\begin{tabular}{|l|c|l|}
+\hline
+\textbf{Risk Category} & \textbf{Final Level} & \textbf{Status} \\
+\hline
+Withdrawal Security & \textcolor{danzoGreen}{LOW} & Critical fixes implemented \\
+Concurrency Control & \textcolor{danzoGreen}{LOW} & File locking added \\
+Input Validation & \textcolor{danzoGreen}{LOW} & Enhanced validation \\
+External Dependencies & \textcolor{danzoGreen}{LOW} & Error handling enhanced \\
+Code Maintainability & \textcolor{danzoOrange}{MEDIUM} & Recommendations provided \\
+\hline
+\end{tabular}
+\end{center}
+
+\section{Scope of Work}
+
+\subsection{Code and Components Audited}
+We examined the entire casino directory within the closed-source DANZO GitHub repository, focusing on its deposit, withdrawal, profit management, and concurrency check functionality.
+
+\subsection{Exclusions}
+Our review was limited to the custom backend transaction-handling logic. Integrated libraries—such as native Python modules, PyCardano, and certain Emurgo support libraries—were outside the scope of this audit.
+
+\subsection{Time Frame}
+The audit commenced in January 2025 and was completed by May 2025.
+
+\section{Methodology}
+
+\subsection{Review Process}
+\subsubsection{Manual Code Review and Developer Interviews}
+We conducted an extensive manual review of the codebase, supplemented by interviews with developers to clarify areas involving complex Cardano blockchain logic.
+
+\subsubsection{Environment and Testing}
+Transaction testing was primarily performed on a dedicated testnet environment. Concurrently, we monitored live logs and behavior on the mainnet, as the application continued operating throughout the audit.
+
+\subsection{Risk Rating Methodology}
+In this audit, we used two risk categories:
+\begin{itemize}
+    \item \textbf{\textcolor{danzoRed}{High}}: Represents serious issues that, if exploited, could lead to significant financial, security, or operational harm. These require immediate attention and remediation.
+    \item \textbf{\textcolor{danzoGray}{Not Important}}: Designates minor or negligible concerns that pose little to no immediate risk. They may be addressed at the discretion of the development team.
+\end{itemize}
+
+\section{Detailed Findings}
+
+\subsection{Architecture Overview}
+The backend is primarily organized around a continuous transaction-handling loop that monitors incoming operations (e.g., deposits, withdrawals) and processes them in real time. Below are the major logical components:
+
+\subsubsection{Main Transaction Handler (Callback)}
+\begin{itemize}
+    \item Reads newly processed transaction references and evaluates whether the operation is a deposit, withdrawal, or liquidity update.
+    \item Invokes utility functions for validation (e.g., \texttt{get\_balance}, \texttt{getWithdrawableBalance}) and constructs Cardano transactions via PyCardano or updates the balances in the Database to either credit or debit player balances.
+\end{itemize}
+
+\subsubsection{Liquidity \& Profit Management}
+\textbf{Deposit/Withdrawal Routines:}
+\begin{itemize}
+    \item \texttt{Process\_ADA\_Deposit} manages liquidity deposits in ADA, tracking them in a secure Database environment.
+    \item \texttt{withdraw\_casino\_liquidity} handles logic to remove contributed liquidity, applying penalty checks if the user withdraws too soon.
+\end{itemize}
+
+\textbf{Casino Profit Tracking:}
+\begin{itemize}
+    \item The system calculates total liquidity and potential profits at set intervals (e.g., every poll). Profits for specific tokens (e.g., DANZO) are recorded in secure JSON files, with concurrency controls in place to prevent race conditions during read/write operations.
+\end{itemize}
+
+\subsubsection{Reward Distribution}
+\begin{itemize}
+    \item On a timed schedule (checked every few polls), if a threshold (like five days) has passed, the \texttt{Distribute\_rewards} function calculates any leftover profits to be distributed to liquidity providers.
+    \item The system then calls \texttt{Map\_profits\_to\_participants} to determine proportional payouts, builds a transaction, and appends the distribution data to a separate engine (ORCA LABS) for final disbursement.
+\end{itemize}
+
+\subsubsection{Concurrency \& File-Based State}
+\begin{itemize}
+    \item Certain operations (e.g., updating JSON file, liquidity points, or cooldown limits) use \texttt{fcntl}-based file locking to avoid race conditions.
+    \item MongoDB is used in tandem to store player balances and transaction logs, with JSON files serving as supplemental or historical trackers.
+\end{itemize}
+
+\subsubsection{Supporting Modules and Checks}
+\begin{itemize}
+    \item \textbf{Cooldown \& High-Value Logic}: Functions like \texttt{can\_withdraw} and \texttt{is\_token\_high\_value} apply thresholds (e.g., X-hour windows, Yk ADA limit) to deter large-scale or rapid withdrawals. To safeguard sensitive security information, details regarding X and Y remain undisclosed.
+    \item \textbf{Hall of Fame \& Stats}: Periodic scripts (e.g., \texttt{generate\_hall\_of\_fame\_announcements}) tally player statistics and record top performers.
+    \item \textbf{Social Media \& Email Notifications}: The backend integrates with external services (Discord, Twitter, Mailjet) to broadcast significant events or alerts (e.g., large deposits, blocked withdrawals).
+\end{itemize}
+
+Overall, the backend's structure centers on transaction event processing, liquidity management, reward scheduling, and real-time validations, with all modules coordinating to maintain a decentralized casino environment on Cardano.
+
+\subsection{External Services and Dependencies}
+
+\subsubsection{BlockFrost API}
+The application leverages the BlockFrost service to query on-chain data (e.g., balances, transaction details) and to submit transactions to the Cardano mainnet. Primary and fallback project IDs are utilized, ensuring uninterrupted service even if one key reaches its rate limit.
+
+\subsubsection{PyCardano}
+A Python library used to build, sign, and submit Cardano transactions programmatically. It handles low-level transaction assembly, key generation, and other blockchain interactions.
+
+\subsubsection{TapTools API}
+External API calls retrieve live token price data in ADA/USD to assess the value of deposits, withdrawals, and large transaction attempts. The application checks and integrates these prices in real time for risk-based decisions (e.g., blocking large withdrawals).
+
+\subsubsection{Mailjet / SMTP}
+The code integrates with Mailjet's SMTP services to send automated notifications and alerts (e.g., high-value withdrawals or admin alerts). Credentials are loaded from a secure storage mechanism and environment variables.
+
+\subsubsection{MongoDB}
+A local MongoDB instance is used to store essential data, such as player balances and transaction histories. The application references a connection URI (redacted in production) and issues queries/updates via the pymongo client library.
+
+\subsubsection{Tweepy (Twitter)}
+Twitter updates about significant deposits or milestone achievements are posted using Tweepy. OAuth credentials are correctly managed outside the code, in environment variables, for production to prevent accidental key exposure.
+
+\subsubsection{Discord Posting}
+A custom HTTP POST endpoint ties into a separate Flask service that posts updates, logs, or images to Discord channels. Proper error handling (timeouts, retry logic) ensures robust communication with Discord.
+
+\subsection{Handling \& Security}
+
+\subsubsection{Credential Management}
+Keys and passwords used in the snippet are stored securely (e.g., environment variables, encrypted vaults) to prevent unauthorized access. The system operates within an isolated virtual machine environment, and SSH access is strictly controlled, allowing remote connections exclusively for authorized administrators.
+
+\subsubsection{HTTPS and Error Handling}
+All external calls (BlockFrost, TapTools, Mailjet, etc.) are made over HTTPS with appropriate exception handling to manage potential downtime or transient errors safely.
+
+\subsubsection{File Locking and Concurrency}
+Operations that update local JSON files (e.g., deposit logs or cooldown trackers) employ file locking (\texttt{fcntl}) to avoid race conditions when multiple processes attempt to read/write simultaneously.
+
+Overall, the application demonstrates mindful integration with external services. Actual credential values and internal configurations are not publicly shared, following best practices to avoid exposing sensitive information in the codebase or audit report.
+
+\section{Code Quality and Maintainability}
+
+\subsection{Coding Standards}
+The project exhibits a generally consistent style in terms of function and variable naming. That said, certain sections could benefit from additional refactoring to ensure uniform code patterns across all modules, particularly regarding function length and grouping logically related constants in a dedicated config file or class. Because this code is proprietary and not intended for open-source release, addressing the noted comment is considered a lower priority and does not pose a significant concern at this time.
+
+\subsection{Documentation and Comments}
+The code includes straightforward, inline comments for most functions, explaining parameters and return types. However, complex or multi-step logic (e.g., distribution engine appends, liquidity calculations) would benefit from more explicit high-level comments or brief design notes. Strengthening these explanations, especially around the concurrency handling or data validation steps, would improve long-term maintainability and onboarding for new developers.
+
+\subsection{Error Handling and Logging}
+Errors are handled fairly well through try-except blocks and custom exceptions. For instance, calls to external APIs (BlockFrost, Discord, TapTools) include retries or fallback logic, reducing the likelihood of crash loops. However, logs are often printed to stdout (e.g., \texttt{print("Error...")}). Integrating a more centralized logging framework (with levels like DEBUG/INFO/WARN/ERROR) would offer improved tracking, rotation, and alerting when running in production.
+
+\subsection{Modularity}
+Key functionality (e.g., transaction building, withdrawal checks, external notifications) is somewhat separated, but there is still room for further decoupling. For example:
+
+\subsubsection{Transaction Logic}
+The callback function (\texttt{callback}) handles both deposit/ withdraw logic and direct calls to external APIs (e.g., emailing, Discord posting). Splitting these responsibilities into distinct modules or services (e.g., a "notification service" vs. a "transaction service") would foster clearer boundaries and testability.
+
+\subsubsection{Email \& Discord Notifications}
+There is a basic separation through dedicated functions (\texttt{notify\_admin}, \texttt{post\_to\_discord}), yet integrating them into a more generic "Alert" interface would make future expansions (e.g., additional channels) simpler.
+
+Overall, the code is coherent and workable, but future maintainability would benefit from cleaner modular boundaries, more uniform documentation, and a centralized logging approach.
+
+\section{Security Controls}
+
+\subsection{Transaction Validations}
+
+\subsubsection{ADA vs. Custom Tokens}
+The code differentiates between ADA (lovelace) and custom tokens during deposits and withdrawals. ADA liquidity deposits invoke \texttt{Process\_ADA\_Deposit} with a specified minimum (\texttt{min\_ada\_deposit}) and maximum (\texttt{max\_ada\_deposit}), ensuring no one can deposit less than the required threshold or exceed the allowed max.
+
+\begin{itemize}
+    \item \textbf{Prior State}: Initially, there were no strict upper withdrawal limits, allowing an entire liquidity pool to be emptied in a single transaction.
+    \item \textbf{Post-Audit Implementation}: This audit introduced upper limits for withdrawals and a multi-step verification (e.g., triple-check logic) to safeguard large transaction outflows.
+\end{itemize}
+
+\subsection{Double Checks and Limits}
+
+\subsubsection{Cooldown and Thresholds}
+\begin{itemize}
+    \item \texttt{COOLDOWN\_DURATION} (X hours) and \texttt{ADA\_THRESHOLD} (Yk ADA equivalent) are enforced to block large cumulative withdrawals in a short time window.
+    \item \textbf{Effectiveness}: These checks significantly mitigate rapid "drain attacks." If a user's cumulative withdrawal within X hours exceeds the threshold, the code prevents execution and sends admin alerts.
+    \item \textbf{Audit Impact}: These controls did not exist initially and were added following identified vulnerabilities.
+\end{itemize}
+
+\subsection{Concurrency and File Locking}
+
+\subsubsection{File Locking (\texttt{fcntl.flock})}
+\begin{itemize}
+    \item The application updates JSON state files (e.g., \texttt{withdrawal\_cooldowns.json}) with exclusive file locks to prevent race conditions from concurrent read/write operations.
+    \item \textbf{Recommendation}: Although effective for lower concurrency, scaling up may benefit from fully database-based transactions and locks (e.g., MongoDB transactions) to reduce complexity and eliminate potential file-locking bottlenecks.
+\end{itemize}
+
+\subsection{Sensitive Data Management}
+Credentials for SMTP (Mailjet), BlockFrost, and other APIs are read from environment variables.
+
+\subsection{Database Security}
+\begin{itemize}
+    \item The code connects to MongoDB via a URI including username and password. Basic authentication is present.
+    \item \textbf{Best Practices}: Ideally, SSL/TLS should secure connections, and network access to the database should be firewalled. Role-based access control and regular credential rotation are also recommended for production deployments.
+\end{itemize}
+
+\subsection{External API Error Handling}
+\begin{itemize}
+    \item External requests (BlockFrost, TapTools, Discord, Twitter) are wrapped in try-except blocks. Certain calls include configurable retry loops or fallback keys (e.g., primary vs. backup BlockFrost project IDs).
+    \item \textbf{Recommendation}: Introduce a unified retry/backoff mechanism for all external services to ensure consistent error handling. Logging these errors in a centralized log or monitoring tool would provide better visibility into repeated failures.
+\end{itemize}
+
+\section{Potential Vulnerabilities}
+
+\subsection{Withdrawal Bypass}
+
+\subsubsection{X-Hour and Y\% Threshold}
+\begin{itemize}
+    \item \textbf{The main concern} is whether attackers can split a large withdrawal into many small ones to circumvent the X-hour or Y\% checks.
+    \item \textbf{Current Safeguards}: The code tracks cumulative withdrawals (\texttt{can\_withdraw}) and denies any attempt that pushes the sum over the threshold within the cooldown window.
+    \item \textbf{Severity}: Considered High if the code is not tightly enforced. Currently, no direct bypass was found, but thorough testing is recommended to confirm no edge cases exist.
+\end{itemize}
+
+\subsection{Race Conditions}
+
+\subsubsection{Simultaneous Deposits/Withdrawals}
+\begin{itemize}
+    \item While \texttt{fcntl.flock} mitigates file-level race conditions, highly concurrent environments or future scaling could expose timing issues, especially if large volumes of transactions occur simultaneously.
+    \item \textbf{Risk Level}: Medium to High for scalability. In the present design, careful locking reduces immediate risk, but remains a key focus for future audits.
+\end{itemize}
+
+\subsection{Replay Attacks}
+
+\subsubsection{Processed Transactions Log}
+\begin{itemize}
+    \item The code maintains a file to detect and ignore previously processed transaction hashes.
+    \item \textbf{Recommendation}: Periodically rotate or prune this file, and ensure consistent checks for duplicates, especially if tx\_hash lifetimes overlap with reorgs on the Cardano chain.
+\end{itemize}
+
+\subsection{Insufficient Validation}
+
+\subsubsection{Addresses and Amounts}
+\begin{itemize}
+    \item Some basic validation exists (e.g., checking \texttt{check\_unit\_exists} for tokens, verifying deposit/withdraw amounts). However, deeper checks (e.g., verifying address format or ensuring user is authorized for founder-only withdrawals) rely on external calls and API requests (e.g. using block frost API to fetch stake addresses).
+    \item \textbf{Recommendation}: Additional strict validation on user input or suspicious addresses to prevent injection or manipulation. It is important to note that, prior to the audit, the system was vulnerable to Franken-address attacks. However, this issue has since been successfully patched.
+\end{itemize}
+
+\section{Remediations and Recommendations}
+
+\subsection{Immediate Changes Implemented}
+\begin{itemize}
+    \item \textbf{Cooldown Logic \& Withdrawal Limits}: Introduced withdrawal cooldowns (X-hour window) and a threshold to prevent high-value tokens or ADA from being drained.
+    \item \textbf{Concurrency Locking}: Ensured file locks around JSON writes, reducing data corruption risk.
+    \item \textbf{Enhanced Notifications}: Implemented administrative email and Discord alerts when thresholds are exceeded.
+\end{itemize}
+
+\subsection{Short-Term Recommendations}
+\begin{enumerate}
+    \item \textbf{Refine Logging}: Introduce a unified logging system (e.g., Python logging with DEBUG, INFO, WARN, ERROR) to replace scattered print statements.
+    \item \textbf{Further Input Validation}: Ensure all user-facing routes and internal calls validate amounts and addresses more rigorously.
+    \item \textbf{Minor Refactoring}: Group constants (keys, threshold values) in a single config file or environment-based dictionary for easier updates and maintenance.
+\end{enumerate}
+
+\subsection{Long-Term Recommendations}
+\begin{enumerate}
+    \item \textbf{Database-Centric Concurrency}: Migrate file-based data tracking to MongoDB transactions or another robust DB solution for more scalable concurrency control.
+    \item \textbf{Formal Testing \& CI/CD}: Increase code coverage with automated tests (unit/integration), and enforce CI/CD checks for each PR to detect regressions before deployment.
+    \item \textbf{Extended Security Program}: Consider launching a bug bounty or security disclosure program. This encourages external security researchers to responsibly report vulnerabilities, improving overall reliability in a financial-grade environment.
+\end{enumerate}
+
+\section{Conclusion}
+
+\subsection{Overall Security Posture}
+With the newly introduced withdrawal limits, cooldown mechanisms, and improved validation checks, the backend now offers significantly stronger defenses against large-scale unauthorized withdrawals. Critical liquidity management functionalities have been fortified to prevent a single transaction or rapid series of transactions from draining the system. Furthermore, concurrency locking, more robust error handling for external APIs, and improved notification channels collectively enhance reliability and transparency.
+
+\subsection{Key Takeaways}
+
+\subsubsection{Critical Fixes Implemented}
+\begin{itemize}
+    \item \textbf{Withdrawal Thresholds \& Cooldowns}: These changes now prevent attackers from exploiting large or repeated withdrawals.
+    \item \textbf{File Locking \& Validation Checks}: Race conditions during deposit/withdraw scenarios are mitigated by exclusive locks, while validation steps block suspicious activity.
+\end{itemize}
+
+\subsubsection{Strengths Identified}
+\begin{itemize}
+    \item \textbf{Consistent Code Style}: Despite a few minor deviations, the overall structure and naming conventions remain largely uniform.
+    \item \textbf{Up-to-Date Dependencies}: Core libraries (e.g., PyCardano, pymongo, and external API integrations) are current, minimizing vulnerability exposure from older versions.
+\end{itemize}
+
+\subsection{Next Steps}
+\begin{enumerate}
+    \item \textbf{Periodic Security Audits}: We recommend scheduling a follow-up audit within 6–12 months or whenever major architectural changes are introduced.
+    \item \textbf{Scalability Planning}: As user volume grows, consider a database-centric approach to concurrency to reduce reliance on file-level locking.
+    \item \textbf{Continued Monitoring \& Updates}: Regularly review API keys, dependencies, and logs to stay ahead of potential threats and maintain a secure operating environment.
+\end{enumerate}
+
+\section{Disclaimer}
+
+The application running on the domain danzo.gg comprises multiple components, many of which fell outside the scope of this audit. In particular, the entire game logic was excluded, as it emulates standard casino games using real-world probabilities—an area the auditor could neither fully evaluate nor guarantee. However, to the best of our knowledge, the application utilizes reputable libraries to ensure randomization, without incurring additional liability for their correctness. This audit focused exclusively on financial handling and critical security aspects. The game logic is assumed correct as a prerequisite, and we accept no responsibility for the accuracy of any game payouts; as with traditional casinos, payouts may be voided in the event of a malfunction. Given the high-risk nature of this application, all interactions should be undertaken only after careful consideration of potential risks. Any modifications made to the audited backend repository after May 8th were not assessed as part of this audit.
+
+\vspace{2cm}
+
+\noindent May 9, 2025
+
+\end{document}
