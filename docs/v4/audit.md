@@ -16,14 +16,3 @@ Because the core logic that handles user funds resides on chain and has passed a
 
 [📄 Download Complete Security Audit Report (PDF)](../images/danzo-audit-final.pdf)
 
-The comprehensive security audit report is available as a professional PDF document. This detailed report contains:
-
-- **Executive Summary** with risk assessment matrix
-- **Complete Architecture Analysis** of backend systems
-- **Detailed Security Findings** and vulnerability assessments  
-- **External Dependencies Review** (BlockFrost, PyCardano, TapTools, etc.)
-- **Code Quality Assessment** and maintainability analysis
-- **Comprehensive Remediation Plan** with implemented fixes
-- **Professional Risk Classification** and mitigation strategies
-
-The audit was conducted by Orca Labs Security Division from January to May 2025, covering the entire closed-source backend infrastructure of the DANZO Protocol running on Cardano.
