@@ -8,7 +8,6 @@ theme:
   features:
     - navigation.top
     - navigation.sections
-    - navigation.footer
     - content.code.copy
     - search.suggest
     - search.highlight
@@ -45,8 +44,3 @@ nav:
 
 extra:
   generator: false
-  social:
-    - icon: fontawesome/brands/discord
-      link: https://discord.gg/danzo
-    - icon: fontawesome/brands/x-twitter
-      link: https://x.com/DanzoCasino
