@@ -178,7 +178,7 @@ The backend is primarily organized around a continuous transaction-handling loop
 \subsubsection{Reward Distribution}
 \begin{itemize}
     \item On a timed schedule (checked every few polls), if a threshold (like five days) has passed, the \texttt{Distribute\_rewards} function calculates any leftover profits to be distributed to liquidity providers.
-    \item The system then calls \texttt{Map\_profits\_to\_participants} to determine proportional payouts, builds a transaction, and appends the distribution data to a separate engine (ORCA LABS) for final disbursement.
+    \item The system then calls \texttt{Map\_profits\_to\_participants} to determine proportional payouts, builds a transaction, and appends the distribution data to a separate engine for final disbursement.
 \end{itemize}
 
 \subsubsection{Concurrency \& File-Based State}
